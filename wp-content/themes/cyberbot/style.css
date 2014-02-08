@@ -1,0 +1,443 @@
+/* COMMON */
+
+body {
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+h2 {
+	margin-bottom: 40px;
+	font-size: 1.2em;
+	color: #00A5A6;
+}
+
+h4 {
+	text-align: center;
+}
+
+
+/* NAVBAR */
+
+.container {
+	max-width: 800px;
+}
+
+.navbar {
+	background: white;
+	z-index: 9998;
+}
+
+.navbar-header {
+	padding: 30px 0px;
+}
+
+.navbar-collapse {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.navbar-toggle {
+	background-color: black !important;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+.icon-bar {
+	background-color: white !important;
+}
+.navbar-nav li a {
+	line-height: 40px;
+}
+
+.navbar-nav li a:hover {
+	background: none;
+}
+
+.navbar-zebatki {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 130px;
+	margin-top: -130px;
+	width: 1000px;
+	background: url(img/Zebatki.png) no-repeat 900px -5px;
+}
+
+.menu-item {
+	color: #00a5a6;
+}
+
+/* CONTENT */
+
+body {
+	margin-top: 141px;
+}
+
+.data {
+	text-align: center;
+	font-size: 3em;
+}
+
+.main-banner {
+	width: 100%;
+	position:relative;
+	height: 150%;
+	max-height: 500px;
+	background: url(img/foto1.jpg) no-repeat top center;
+	margin-top: -29px;
+	z-index: -10;
+}
+
+.zygzak1 {
+	padding-top: 20px;
+	height: 9px;
+	position:relative;
+	width: 100%;
+	background: url(img/zygzag1.png) no-repeat top left;
+	z-index:800;
+}
+
+.logo-okregi {
+	position: relative;
+	width: 100%;
+	height: 1000px;
+  margin-top: -720px;
+  left: -340px; /* this must be TWICE the required offset distance*/
+  padding-right: 340px;
+  z-index: 90;
+  background-image: url("img/Promieniowanie-LogoB.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.karuzela {
+	width: 100%;
+	height: 100px;
+	margin-top: -280px;
+}
+
+.zebatki-content {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1000px;
+	position: relative;
+	height: 300px;
+  margin-top: -150px;
+  z-index: 100;
+  background-image: url("img/zebatki-content.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.zebatki-helper {
+	height: 300px;
+	margin-top: 0px;
+}
+
+/* O FESTIWALU */
+.o-festiwalu {
+	margin-top: -400px;
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+.zebatki-o-festiwalu-1 {
+	width: 100%;
+	height: 11px;
+	background-image: url("img/zygzag1-content.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.zebatki-o-festiwalu-2 {
+	width: 100%;
+	height: 12px;
+	background-image: url("img/zygzag2-content.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.konkurencje {
+	width: 100%;
+	background-color: #005b63;
+	color: white;
+	background-image: url("img/okregi-konkurencje.png");
+	background-position: 150% 50%;
+	background-repeat: no-repeat;
+}
+
+.fala-konkurencje {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 20px;
+	background-image: url("img/fala-konkurencje.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.konkurencje img {
+	display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin: 100px auto;
+}
+
+.konkurencja {
+	color: white;
+	background: white;
+	padding: 10px;
+	text-align: justify;
+	margin: 20px 0px;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+	border-color: white;
+	background-color: rgba(0, 0, 0, 0.2);;
+}
+
+.top-konkurencje {
+	margin-top: 30px;
+}
+
+.sumo {
+	background-image: url("img/sumo.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.minisumo {
+	background-image: url("img/microsumo.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.nanosumo {
+	background-image: url("img/nanosumo.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.lf {
+	background-image: url("img/LF.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.lfe {
+	background-image: url("img/LFE.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.mm {
+	background-image: url("img/mouse.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.pc {
+	background-image: url("img/puck.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.freestyle {
+	background-image: url("img/freestyle.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.robot-wrapper {
+	width: 100%;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+#robot {
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+.kontakt {
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+#googleMap {
+	margin-top: 150px;
+	width: 100%;
+	height: 60%;
+	background: #DCD4F9;
+}
+
+.fala-kontakt {
+	width: 100%;
+	margin-top: 70px;
+	height: 20px;
+	background-image: url("img/fala-kontakt.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.kontakt-info {
+	margin-top: 150px;
+}
+
+.zebatki-content-dol {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1150px;
+	position: relative;
+	height: 700px;
+  margin-top: -100px;
+  z-index: 100;
+  background-image: url("img/zebatki-dol.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.zebatki-helper-dol {
+	height: 10px;
+	margin-top: -350px;
+}
+
+/* Container DIV - automatically generated */
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll { 
+	width: 100%;
+	height: 100px;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	width: 100%px;
+	height: 100px;
+}
+	
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	float: left; /* Horizontal scroll only */
+	width: 500px;
+	height: 100px;
+	padding: 25px 0px;
+}
+
+/* LIKEBOX */
+/* glowny div z like box'em */
+#like-box {
+	position: fixed;
+	z-index: 99;
+	top: 150px;  /* jego polozenie od gory */
+	left: -296px; /* szerokosc wygenerowanego boxa + 4px obramowania */
+	-webkit-transition: left 0.5s ease-out;
+	-moz-transition: left 0.5s ease-out;
+	-o-transition: left 0.5s ease-out;
+	transition: left 0.5s ease-out;
+}
+ 
+/* wysuniecie like box'a */
+#like-box:hover {
+	left: 0px;
+}
+ 
+/* zewnetrzna ramka boxa */
+#like-box .outside {
+	position: relative;
+	z-index: 1;
+	background: #3b5999;
+	padding: 2px;
+	min-width: 1px;
+	float: left;
+}
+ 
+/* wewnetrzne tlo boxa */
+#like-box .inside {
+	position: relative;
+	z-index: 2;
+	background: #fff;
+}
+ 
+/* pasek z logo FB */
+#like-box .belt {
+	position: relative;
+	z-index: 0;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg); 
+	-o-transform: rotate(90deg); 
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); 
+	float: left;
+	width: 100px; 
+	height: 40px;
+	padding: 7px 0px 0px 20px;
+	margin: 50px 0px 0px -55px;
+	background: #3b5999;
+	color: #fff;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 16px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.stopka {
+	margin-top: 20px;
+}
+
+.languages {
+	position: absolute;
+	top: 10;
+	right: 20;
+	z-index: 9999;
+}
+
+.languages ul {
+	list-style-type: none;
+}
+
+.languages ul li {
+	display: inline;
+}
