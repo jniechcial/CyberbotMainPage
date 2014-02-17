@@ -240,6 +240,12 @@ body {
 	background-repeat: no-repeat;
 }
 
+.mi {
+	background-image: url("img/maly-inzynier.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
 .pc {
 	background-image: url("img/puck.png");
 	background-position: center center;
@@ -359,7 +365,7 @@ Class name automatically added to element */
 /* Explicitly set height/width of each list item */	
 .simply-scroll .simply-scroll-list li {
 	float: left; /* Horizontal scroll only */
-	width: 500px;
+	width: 350px;
 	height: 100px;
 	padding: 25px 0px;
 }

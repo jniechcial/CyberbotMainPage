@@ -33,9 +33,9 @@
 	    </div>
 	    <div class="navbar-collapse collapse">
 	      <ul class="nav navbar-nav navbar-right single-page-nav">
-	       	 <li><a href="#section1" class="menu-item"><?php _e("[:pl]O FESTIWALU[:en]ABOUT[:de]ABOUT"); ?></a></li>
-         	 <li><a href="#section2" class="menu-item"><?php _e("[:pl]KONKURENCJE[:en]COMPETITIONS[:de]COMPETITIONS"); ?></a></li>
-         	 <li><a href="#section3" class="menu-item"><?php _e("[:pl]KONTAKT[:en]CONTACT[:de]CONTACT"); ?></a></li>
+	       	 <li><a href="#section1" class="menu-item"><?php _e("[:pl]O FESTIWALU[:en]ABOUT[:de]ÜBER DAS FESTIVAL"); ?></a></li>
+         	 <li><a href="#section2" class="menu-item"><?php _e("[:pl]KONKURENCJE[:en]COMPETITIONS[:de]VERANSTALTUNGEN"); ?></a></li>
+         	 <li><a href="#section3" class="menu-item"><?php _e("[:pl]KONTAKT[:en]CONTACT[:de]KONTAKT"); ?></a></li>
 	      </ul>
 	    </div><!--/.nav-collapse -->
 	  </div>
@@ -45,9 +45,9 @@
 	  
 	  <div class="languages">
 		<ul>
-			<li><a href="http://localhost/CyberbotMainPageWP/"><img src="wp-content/plugins/qtranslate/flags/pl.png"></a></li>
-			<li><a href="http://localhost/CyberbotMainPageWP/?lang=en"><img src="wp-content/plugins/qtranslate/flags/gb.png"></a></li>
-			<li><a href="http://localhost/CyberbotMainPageWP/?lang=de"><img src="wp-content/plugins/qtranslate/flags/de.png"></a></li>
+			<li><a href="http://sumo.put.poznan.pl/"><img src="wp-content/plugins/qtranslate/flags/pl.png"></a></li>
+			<li><a href="http://sumo.put.poznan.pl/?lang=en"><img src="wp-content/plugins/qtranslate/flags/gb.png"></a></li>
+			<li><a href="http://sumo.put.poznan.pl/?lang=de"><img src="wp-content/plugins/qtranslate/flags/de.png"></a></li>
 		</ul>
 	  </div>
 	  

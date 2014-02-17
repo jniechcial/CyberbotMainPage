@@ -505,6 +505,17 @@ function getLFEMini()
 	}
 }
 
+function getMIMini()
+{
+	$query = new WP_Query('name=mi-mini');
+	if ( $query->have_posts() ) {
+		while ( $query->have_posts() ) {
+			$query->the_post();
+			the_content();
+		}
+	}
+}
+
 function getNanosumoMini()
 {
 	$post = get_post(15);

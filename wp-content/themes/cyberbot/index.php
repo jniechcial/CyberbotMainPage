@@ -11,12 +11,6 @@
 
 	<div class="karuzela">
 		<?php getLogotypy(); ?>
-		<!--<ul id="scroller">
-			<li><img src="wp-content/themes/cyberbot/img/WE.png" height="50"></li>
-			<li><img src="wp-content/themes/cyberbot/img/PP.png" height="50"></li>
-			<li><img src="wp-content/themes/cyberbot/img/KN.png" height="50"></li>
-			<li><img src="wp-content/themes/cyberbot/img/IAII.png" height="50"></li>
-		</ul>        --> 
 	</div>
 
 	<div class="zebatki-wrapper">
@@ -77,14 +71,19 @@
 				</div>
 			</div>
 			<div class="row bottom-konkurencje">
-				<div class="col-md-4 col-md-offset-2 col-sm-6">
+				<div class="col-md-4 col-sm-4">
 					<div class="konkurencja freestyle">
 						<?php getFreestyleMini(); ?>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6">
+				<div class="col-md-4 col-sm-4">
 					<div class="konkurencja pc">
 						<?php getPCMini(); ?>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="konkurencja mi">
+						<?php getMIMini(); ?>
 					</div>
 				</div>
 			</div>
